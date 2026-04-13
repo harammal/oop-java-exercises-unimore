@@ -50,7 +50,7 @@ public class PhoneBookArray implements PhoneBook {
         int count = 0;
 
         for (int i = 0; i < MAX_PERSONS; i++) {
-            if (phoneBook[i]!=null && phoneBook[i].lastname().equals(lastname)) {
+            if (phoneBook[i] != null && phoneBook[i].lastname().equals(lastname)) {
                 tmp[count++] = phoneBook[i];
             }
         }
@@ -63,9 +63,9 @@ public class PhoneBookArray implements PhoneBook {
         Person[] tmp = new Person[MAX_PERSONS];
         int count = 0;
 
-        for(int i= 0; i<MAX_PERSONS; i++){
-            if(phoneBook[i]!= null && phoneBook[i].name().equals(name) && phoneBook[i].lastname().equals(lastname)){
-                tmp[count++]=phoneBook[i];
+        for (int i = 0; i < MAX_PERSONS; i++) {
+            if (phoneBook[i] != null && phoneBook[i].name().equals(name) && phoneBook[i].lastname().equals(lastname)) {
+                tmp[count++] = phoneBook[i];
             }
         }
 
