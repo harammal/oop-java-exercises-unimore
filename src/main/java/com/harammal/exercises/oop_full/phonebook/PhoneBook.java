@@ -14,36 +14,32 @@ public interface PhoneBook {
      * Adds a person to the phone book
      *
      * @param person The person to be added to the phone book
-     *
      * @return true if the phone book has been modified
      */
-    public boolean addPerson(Person person);
+    boolean addPerson(Person person);
 
     /**
      * Removes a person from the phone book
      *
      * @param person The person to be removed from the phone book
-     *
      * @return true is the phone book has been modified
      */
-    public boolean removePerson(Person person);
+    boolean removePerson(Person person);
 
     /**
      * Searches all persons with a specific lastname
      *
      * @param lastname The lastname to be searched
-     *
      * @return An array comprising all the persons found
      */
-    public Person[] searchByLastname(String lastname);
+    Person[] searchByLastname(String lastname);
 
     /**
      * Searches all persons with a specific name and lastname
      *
-     * @param name The name to be searched
+     * @param name     The name to be searched
      * @param lastname The lastname to be searched
-     *
      * @return An array comprising all the persons found
      */
-    public Person[] searchByNameAndLastname(String name, String lastname);
+    Person[] searchByNameAndLastname(String name, String lastname);
 }
