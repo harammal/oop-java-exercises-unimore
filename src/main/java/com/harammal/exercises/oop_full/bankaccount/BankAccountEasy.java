@@ -42,8 +42,8 @@ public class BankAccountEasy extends AbstractBankAccount {
         if (!CountryCodeSrc.equals(CountryCodeDst)) {
             throw new IllegalArgumentException("International transfers invalid");
         }
-
-        other.deposit(this.withdraw(amount));
-        return amount;
+        double allowedAmount = withdraw(amount);
+        other.deposit(allowedAmount);
+        return allowedAmount;
     }
 }
