@@ -32,7 +32,7 @@ public abstract class AbstractBankAccount implements BankAccount {
     protected AbstractBankAccount(String IBAN, double balance, double operationFee, double interestRate) {
         setIBAN(IBAN);
         this.balance = balance;
-        setBalance(balance);
+        setOperationFee(operationFee);
         this.interestRate = interestRate;
     }
 
@@ -134,7 +134,8 @@ public abstract class AbstractBankAccount implements BankAccount {
      */
     @Override
     public double transfer(BankAccount other, double amount) {
-        other.deposit(this.withdraw(amount));
+        withdraw(amount);
+        other.deposit(amount);
         return amount;
     }
 
