@@ -9,7 +9,7 @@ These solutions are shared for educational purposes only.
 The test implementations used in exercises were created by Nicola Bicocchi and are distributed under the MIT License: Copyright (c) Nicola Bicocchi
 
 Moral rights:  
-Nicola Bicocchi
+Nicola Bicocchi  
 The code is available at: [https://github.com/nbicocchi/learn-java-core](https://github.com/nbicocchi/learn-java-core)
 
 ## License
