@@ -4,7 +4,7 @@ This repository contains my personal solutions to the exercises of the course "P
 
 These solutions are shared for educational purposes only.
 
-## Primitives / Credits
+## Test implementations / Credits
 
 The test implementations used in exercises were created by Nicola Bicocchi and are distributed under the MIT License: Copyright (c) Nicola Bicocchi
 
