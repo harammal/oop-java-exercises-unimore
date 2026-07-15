@@ -15,4 +15,3 @@ The code is available at: [https://github.com/nbicocchi/learn-java-core](https:/
 ## License
 
 This project is licensed under MIT License.
-<!-- fix-contributions-recovery -->
